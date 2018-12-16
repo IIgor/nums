@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Share+Tech+Mono" rel="stylesheet">
+    <title>Number</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrap">
+       <header class="header">
+            <div class="content">
+                
+            </div>
+       </header>
+       <main>
+            <div class="full-content">
+                <div class="top">
+                    <div class="attempt">
+                        <h3 class="title">Попытки</h3><span class="addAttempt">+</span>
+                        <div class="attempt_num"></div>
+                    </div>
+
+                    <div class="total">
+                        <h3 class="title">Обший счет</h3>
+                        <div class="total_num"></div>
+                    </div>
+                </div>
+
+                <div class="num-blc">
+                    <div class="num">0</div>
+                    <button class="btn js-btn_generate">Генерировать</button>
+                    <p class="error js-error"></p>
+                </div>
+            </div>
+       </main>
+       <footer class="footer">
+            <div class="content">
+                <div class="night-mode">
+                    <span class="night-mode_text">Ночной режим</span>
+                        <input type="checkbox" id="nightMode" checked>
+                        <label for="nightMode" class="night-mode_label">
+                            <span></span>
+                        </label>
+                    </div>
+            </div>
+       </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
